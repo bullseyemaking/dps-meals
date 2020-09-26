@@ -1,0 +1,32 @@
+{
+    "a": {
+        "days":[1,2,3,4,5],
+        "start": "11:00",
+        "end": "12:30",
+        "type": "Includes breakfasts and hot lunches for the weekdays and extra breakfasts and lunches that can be reheated offered on Fridays for the weekend."
+    },
+    "b": {
+        "days":[2,4],
+        "start": "11:00",
+        "end": "12:30",
+        "type": "Week’s supply of breakfasts and meals that can be reheated."
+    },
+    "c": {
+        "days":[1,2,3,4,5],
+        "start": "11:00",
+        "end": "12:00",
+        "type": "Breakfasts, hot lunches, and lunches that can be reheated for the weekend Monday through Friday"
+    },
+    "d": {
+        "days":[1,2,3,4,5],
+        "start": "11:00",
+        "end": "11:30",
+        "type": "Breakfasts, hot lunches, and lunches that can be reheated for the weekend Monday through Friday"
+    },
+    "e": {
+        "days":[1,2,3,4,5],
+        "start": "11:45",
+        "end": "12:15",
+        "type": "Breakfasts, hot lunches, and lunches that can be reheated for the weekend Monday through Friday"
+    }
+}

@@ -1,0 +1,369 @@
+{
+    "schools": [{
+        "id": "QmV0aGVzZGEgRWxlbWVudGFyeTIwMDkgUyBNaWFtaSBCbHZkLCBEdXJoYW0sIE5DIDI3NzAz",
+        "name": "Bethesda Elementary",
+        "address": "2009 S Miami Blvd, Durham, NC 27703",
+        "schedule": "a"
+    }, {
+        "id": "RWFzdHdheSBFbGVtZW50YXJ5NjEwIE4gQWxzdG9uIEF2ZSwgRHVyaGFtLCBOQyAyNzcwMQ==",
+        "name": "Eastway Elementary",
+        "address": "610 N Alston Ave, Durham, NC 27701",
+        "schedule": "a"
+    }, {
+        "id": "RW5vIFZhbGxleSBFbGVtZW50YXJ5MTE3IE1pbHRvbiBSZCwgRHVyaGFtLCBOQyAyNzcxMg==",
+        "name": "Eno Valley Elementary",
+        "address": "117 Milton Rd, Durham, NC 27712",
+        "schedule": "a"
+    }, {
+        "id": "Q2x1YiBCb3VsZXZhcmQgRWxlbWVudGFyeaA0MDAgVyBDbHViIEJsdmQsIER1cmhhbSwgTkMgMjc3MDQ=",
+        "name": "Club Boulevard Elementary",
+        "address": " 400 W Club Blvd, Durham, NC 27704",
+        "schedule": "a"
+    }, {
+        "id": "R2xlbm4gRWxlbWVudGFyeTI0MTUgRSBHZWVyIFN0LCBEdXJoYW0sIE5DIDI3NzA0",
+        "name": "Glenn Elementary",
+        "address": "2415 E Geer St, Durham, NC 27704",
+        "schedule": "a"
+    }, {
+        "id": "SG9sdCBFbGVtZW50YXJ5NDAxOSBIb2x0IFNjaG9vbCBSZCwgRHVyaGFtLCBOQyAyNzcwNA==",
+        "name": "Holt Elementary",
+        "address": "4019 Holt School Rd, Durham, NC 27704",
+        "schedule": "a"
+    }, {
+        "id": "U2hlcGFyZCBNaWRkbGUyNDAxIERha290YSBTdCwgRHVyaGFtLCBOQyAyNzcwNw==",
+        "name": "Shepard Middle",
+        "address": "2401 Dakota St, Durham, NC 27707",
+        "schedule": "a"
+    }, {
+        "id": "TWVycmljayBNb29yZSBFbGVtZW50YXJ5MjMyNSBDaGVlayBSZCwgRHVyaGFtLCBOQyAyNzcwNA==",
+        "name": "Merrick Moore Elementary",
+        "address": "2325 Cheek Rd, Durham, NC 27704",
+        "schedule": "a"
+    }, {
+        "id": "TmVhbCBNaWRkbGUyMDEgQmFwdGlzdCBSZCwgRHVyaGFtLCBOQyAyNzcwNA==",
+        "name": "Neal Middle",
+        "address": "201 Baptist Rd, Durham, NC 27704",
+        "schedule": "a"
+    }, {
+        "id": "Uml2ZXJzaWRlIEhpZ2gzMjE4IFJvc2Ugb2YgU2hhcm9uIFJkLCBEdXJoYW0sIE5DIDI3NzEy",
+        "name": "Riverside High",
+        "address": "3218 Rose of Sharon Rd, Durham, NC 27712",
+        "schedule": "a"
+    }, {
+        "id": "R2l0aGVucyBNaWRkbGU0ODAwIE9sZCBDaGFwZWwgSGlsbCBSZCwgRHVyaGFtLCBOQyAyNzcwNw==",
+        "name": "Githens Middle",
+        "address": "4800 Old Chapel Hill Rd, Durham, NC 27707",
+        "schedule": "a"
+    }, {
+        "id": "UiBOIEhhcnJpcyBFbGVtZW50YXJ5MTUyMCBDb29wZXIgU3QsIER1cmhhbSwgTkMgMjc3MDM=",
+        "name": "R N Harris Elementary",
+        "address": "1520 Cooper St, Durham, NC 27703",
+        "schedule": "a"
+    }, {
+        "id": "U291dGhlcm4gU2Nob29sIG9mIEVuZXJneSBhbmQgU3VzdGFpbmFiaWxpdHk4MDAgQ2xheXRvbiBSZCwgRHVyaGFtLCBOQyAyNzcwMw==",
+        "name": "Southern School of Energy and Sustainability",
+        "address": "800 Clayton Rd, Durham, NC 27703",
+        "schedule": "a"
+    }, {
+        "id": "U2FuZHkgUmlkZ2UgRWxlbWVudGFyeaAxNDE3IE9sZCBPeGZvcmQgUmQsIER1cmhhbSwgTkMgMjc3MDQ=",
+        "name": "Sandy Ridge Elementary",
+        "address": " 1417 Old Oxford Rd, Durham, NC 27704",
+        "schedule": "a"
+    }, {
+        "id": "U291dGh3ZXN0IEVsZW1lbnRhcnkyMzIwIENvb2sgUmQsIER1cmhhbSwgTkMgMjc3MTM=",
+        "name": "Southwest Elementary",
+        "address": "2320 Cook Rd, Durham, NC 27713",
+        "schedule": "a"
+    }, {
+        "id": "QyBDIFNwYXVsZGluZyBFbGVtZW50YXJ5MTUzMSBTIFJveGJvcm8gU3QsIER1cmhhbSwgTkMgMjc3MDc=",
+        "name": "C C Spaulding Elementary",
+        "address": "1531 S Roxboro St, Durham, NC 27707",
+        "schedule": "a"
+    }, {
+        "id": "VyBHIFBlYXJzb24gRWxlbWVudGFyeTM1MDEgRmF5ZXR0ZXZpbGxlIFN0LCBEdXJoYW0sIE5DIDI3NzA3",
+        "name": "W G Pearson Elementary",
+        "address": "3501 Fayetteville St, Durham, NC 27707",
+        "schedule": "a"
+    }, {
+        "id": "WSBFIFNtaXRoIEVsZW1lbnRhcnkyNDEwIEUgTWFpbiBTdCwgRHVyaGFtLCBOQyAyNzcwMw==",
+        "name": "Y E Smith Elementary",
+        "address": "2410 E Main St, Durham, NC 27703",
+        "schedule": "a"
+    }, {
+        "id": "QnVydG9uIEVsZW1lbnRhcnkxNTAwIE1hdGhpc29uIFN0LCBEdXJoYW0sIE5DIDI3NzAx",
+        "name": "Burton Elementary",
+        "address": "1500 Mathison St, Durham, NC 27701",
+        "schedule": "b"
+    }, {
+        "id": "Q2FycmluZ3RvbiBNaWRkbGUyMjcgTWlsdG9uIFJkLCBEdXJoYW0sIE5DIDI3NzEy",
+        "name": "Carrington Middle",
+        "address": "227 Milton Rd, Durham, NC 27712",
+        "schedule": "b"
+    }, {
+        "id": "RmF5ZXR0ZXZpbGxlIFN0cmVldCBFbGVtZW50YXJ5oDI5MDUgRmF5ZXR0ZXZpbGxlIFN0LCBEdXJoYW0sIE5DIDI3NzA3",
+        "name": "Fayetteville Street Elementary",
+        "address": " 2905 Fayetteville St, Durham, NC 27707",
+        "schedule": "b"
+    }, {
+        "id": "SGlsbHNpZGUgSGlnaDM3MjcgRmF5ZXR0ZXZpbGxlIFJkLCBEdXJoYW0sIE5DIDI3NzA3",
+        "name": "Hillside High",
+        "address": "3727 Fayetteville Rd, Durham, NC 27707",
+        "schedule": "b"
+    }, {
+        "id": "TGFrZXZpZXcgU2Vjb25kYXJ5MzUwNyBEZWFyYm9ybiBEciwgRHVyaGFtLCBOQyAyNzcwNA==",
+        "name": "Lakeview Secondary",
+        "address": "3507 Dearborn Dr, Durham, NC 27704",
+        "schedule": "b"
+    }, {
+        "id": "TGFrZXdvb2QgRWxlbWVudGFyeTI1MjAgVmVzc29uIEF2ZSwgRHVyaGFtLCBOQyAyNzcwNw==",
+        "name": "Lakewood Elementary",
+        "address": "2520 Vesson Ave, Durham, NC 27707",
+        "schedule": "b"
+    }, {
+        "id": "UGFya3dvb2QgRWxlbWVudGFyeTUyMDcgUmV2ZXJlIFJkLCBEdXJoYW0sIE5DIDI3NzEzCg==",
+        "name": "Parkwood Elementary",
+        "address": "5207 Revere Rd, Durham, NC 27713",
+        "schedule": "b"
+    }], 
+    "bus": [{
+        "id": "SG9sdG9uIENhcmVlciAmIFJlc291cmNlIENlbnRlcqA0MDEgTi4gRHJpdmVyIFN0LiwgRHVyaGFtIE5DIDI3NzAz",
+        "name": "Holton Career & Resource Center ",
+        "address": "401 N. Driver St., Durham NC 27703",
+        "schedule": "c"
+    }, {
+        "id": "REhBOiBMaWJlcnR5IFN0cmVldCBBcGFydG1lbnRzNTc0IExpYmVydHkgU3RyZWV0LCBEdXJoYW0sIE5DIDI3NzAx",
+        "name": "DHA: Liberty Street Apartments",
+        "address": "574 Liberty Street, Durham, NC 27701",
+        "schedule": "c"
+    }, {
+        "id": "U2V2ZW4gT2FrcyBUb3duaG9tZXMyMDAgU2V2ZW4gT2FrcyBSZC4sIER1cmhhbSwgTkMgMjc3MDQ=",
+        "name": "Seven Oaks Townhomes",
+        "address": "200 Seven Oaks Rd., Durham, NC 27704",
+        "schedule": "c"
+    }, {
+        "id": "RHVrZSBNYW5vciBBcGFydG1lbnRzMzExIFMuIExhc2FsbGUgU3QuLCBEdXJoYW0sIE5DIDI3NzA1",
+        "name": "Duke Manor Apartments",
+        "address": "311 S. Lasalle St., Durham, NC 27705",
+        "schedule": "c"
+    }, {
+        "id": "QnJvZ2RlbiBNaWRkbGUgU2Nob29sMTAwMSBMZW9uIFN0LiwgRHVyaGFtLCBOQyAyNzcwNA==",
+        "name": "Brogden Middle School",
+        "address": "1001 Leon St., Durham, NC 27704",
+        "schedule": "c"
+    }, {
+        "id": "TWFycXVpcyBHYXJkZW5zIEFwYXJ0bWVudHM5MDEgQ2hhbGsgTGV2ZWwgUmQuLCBEdXJoYW0sIE5DIDI3NzA0",
+        "name": "Marquis Gardens Apartments",
+        "address": "901 Chalk Level Rd., Durham, NC 27704",
+        "schedule": "c"
+    }, {
+        "id": "T2FrIENyZWVrIFZpbGxhZ2UgQXBhcnRtZW50czQyMzAgR2FycmV0dCBSZC4sIER1cmhhbSwgTkMgMjc3MDc=",
+        "name": "Oak Creek Village Apartments",
+        "address": "4230 Garrett Rd., Durham, NC 27707",
+        "schedule": "c"
+    }, {
+        "id": "Q29sb25pYWwgQXBhcnRtZW50czI5MjAgQ2hhcGVsIEhpbGwgUmQuLCBEdXJoYW0sIE5DIDI3NzA3",
+        "name": "Colonial Apartments",
+        "address": "2920 Chapel Hill Rd., Durham, NC 27707",
+        "schedule": "c"
+    }, {
+        "id": "U291dGhwb2ludKAgQXBhcnRtZW50czMyMDEgTXlyYSBTdC4sIER1cmhhbSwgTkMgMjc3MDc=",
+        "name": "Southpoint  Apartments",
+        "address": "3201 Myra St., Durham, NC 27707",
+        "schedule": "c"
+    }, {
+        "id": "U291dGggU3F1YXJlIFRvd25ob21lc6AzMzAwIFNoYW5ub24gcmQuLCBEdXJoYW0sIE5DIDI3NzA3",
+        "name": "South Square Townhomes",
+        "address": " 3300 Shannon rd., Durham, NC 27707",
+        "schedule": "c"
+    }, {
+        "id": "TWFnbm9saWEgUG9pbnQgQXBhcnRtZW50czQ4MDEgRGFudWJlIExuLiwgRHVyaGFtLCBOQyAyNzcwNA==",
+        "name": "Magnolia Point Apartments",
+        "address": "4801 Danube Ln., Durham, NC 27704",
+        "schedule": "c"
+    }, {
+        "id": "REhBOiBPeGZvcmQgTWFub3IzNjMzIEtleXN0b25lIFBsLiwgRHVyaGFtLCBOQyAyNzcwNA==",
+        "name": "DHA: Oxford Manor",
+        "address": "3633 Keystone Pl., Durham, NC 27704",
+        "schedule": "c"
+    }, {
+        "id": "REhBOiBDb3Jud2FsbGlzIFJkIEFwYXJ0bWVudHMzMDAwIFdlYXZlciBTdC4sIER1cmhhbSwgTkMgMjc3MDc=",
+        "name": "DHA: Cornwallis Rd Apartments",
+        "address": "3000 Weaver St., Durham, NC 27707",
+        "schedule": "c"
+    }, {
+        "id": "REhBOiBIb292ZXIgUmQgQXBhcnRtZW50czExMjYgU291dGggSG9vdmVyIFJkLiwgRHVyaGFtLCBOQyAyNzcwMw==",
+        "name": "DHA: Hoover Rd Apartments",
+        "address": "1126 South Hoover Rd., Durham, NC 27703",
+        "schedule": "c"
+    }, {
+        "id": "Rm94IFJpZGdlIEFwYXJ0bWVudHOgMjAwIEZveHJpZGdlIENyZXNjZW50LCBEdXJoYW0sIE5DIDI3NzAz",
+        "name": "Fox Ridge Apartments",
+        "address": " 200 Foxridge Crescent, Durham, NC 27703",
+        "schedule": "d"
+    }, {
+        "id": "U3ByaW5nd29vZCBBcGFydG1lbnRzMzAwNCBJdmV5IFdvb2QgTG4uLCBEdXJoYW0sIE5DIDI3NzAz",
+        "name": "Springwood Apartments",
+        "address": "3004 Ivey Wood Ln., Durham, NC 27703",
+        "schedule": "d"
+    }, {
+        "id": "Rm94ZmlyZSBBcGFydG1lbnRzMTQwMCBXeWRsZXdvb2QgUmQuLCBEdXJoYW0sIE5DIDI3NzA0",
+        "name": "Foxfire Apartments",
+        "address": "1400 Wydlewood Rd., Durham, NC 27704",
+        "schedule": "d"
+    }, {
+        "id": "T2FrbGV5IFNxdWFyZSBBcGFydG1lbnRzoDE4MzUgQ2hlZWsgUmQuLCBEdXJoYW0sIE5DIDI3NzA0",
+        "name": "Oakley Square Apartments",
+        "address": " 1835 Cheek Rd., Durham, NC 27704",
+        "schedule": "d"
+    }, {
+        "id": "SW5kZXBlbmRlbmNlIFBhcmsgQXBhcnRtZW50c6AyMTUgV2lsbGlhbSBQZW5uIFBsYXphLCBEdXJoYW0sIE5DIDI3NzA0",
+        "name": "Independence Park Apartments",
+        "address": " 215 William Penn Plaza, Durham, NC 27704",
+        "schedule": "d"
+    }, {
+        "id": "THlvbiBQYXJrIFJlY3JlYXRpb24gQ2VudGVyMTMwOSBIYWxsZXkgU3QuLCBEdXJoYW0sIE5DIDI3NzA3",
+        "name": "Lyon Park Recreation Center",
+        "address": "1309 Halley St., Durham, NC 27707",
+        "schedule": "d"
+    }, {
+        "id": "TmFwbGVzIFRlcnJhY2UgQXBhcnRtZW50czEyMzcgTmFwbGVzIFBsLiAjRSwgRHVyaGFtLCBOQyAyNzcwMw==",
+        "name": "Naples Terrace Apartments",
+        "address": "1237 Naples Pl. #E, Durham, NC 27703",
+        "schedule": "d"
+    }, {
+        "id": "TWluZXJhbCBTcHJpbmdzIFZpbGxhZ2UzNzI5IFdha2UgRm9yZXN0IEh3eS4gUmQuLCBEdXJoYW0sIE5DIDI3NzAz",
+        "name": "Mineral Springs Village",
+        "address": "3729 Wake Forest Hwy. Rd., Durham, NC 27703",
+        "schedule": "d"
+    }, {
+        "id": "SG9sbHkgSGlsbCBBcGFydG1lbnRzoDEzMTUgTW9ycmVlbmUgUmQuLCBEdXJoYW0sIE5DIDI3NzA1",
+        "name": "Holly Hill Apartments",
+        "address": " 1315 Morreene Rd., Durham, NC 27705",
+        "schedule": "d"
+    }, {
+        "id": "REhBOiBNb3JyZWVuZSBSZC4vRGFtYXIgQ3QuMTAzNSBTaGVyd29vZCBEci4sIER1cmhhbSwgTkMgMjc3MDU=",
+        "name": "DHA: Morreene Rd./Damar Ct.",
+        "address": "1035 Sherwood Dr., Durham, NC 27705",
+        "schedule": "d"
+    }, {
+        "id": "VCBBIEdyYWR5IFJlY3JlYXRpb24gQ2VudGVyNTMxIExha2VsYW5kIFN0LiwgRHVyaGFtLCBOQyAyNzcwMQ==",
+        "name": "T A Grady Recreation Center",
+        "address": "531 Lakeland St., Durham, NC 27701",
+        "schedule": "d"
+    }, {
+        "id": "Um9jaGVsbGUgTWFub3IgQXBhcnRtZW50czI4MTkgUm9jaGVsbGUgU3QuLCBEdXJoYW0sIE5DIDI3NzAz",
+        "name": "Rochelle Manor Apartments",
+        "address": "2819 Rochelle St., Durham, NC 27703",
+        "schedule": "d"
+    }, {
+        "id": "QmlyY2h3b29kIEhlaWdodHMgUmVjcmVhdGlvbjQxNiBXYWx0b24gU3QuLCBEdXJoYW0sIE5DIDI3NzAz",
+        "name": "Birchwood Heights Recreation",
+        "address": "416 Walton St., Durham, NC 27703",
+        "schedule": "d"
+    }, {
+        "id": "RmFsbHMgUG9pbnRlIEFwYXJ0bWVudHMxMDAgQ2FzY2FkZSBGYWxscyBMbi4sIER1cmhhbSwgTkMgMjc3MTM=",
+        "name": "Falls Pointe Apartments",
+        "address": "100 Cascade Falls Ln., Durham, NC 27713",
+        "schedule": "d"
+    }, {
+        "id": "Rm9yZXN0IEdsZW5uIEFwYXJ0bWVudHMxMDAgTHlubiBGb3Jlc3QgRHIuLCBEdXJoYW0sIE5DIDI3NzEz",
+        "name": "Forest Glenn Apartments",
+        "address": "100 Lynn Forest Dr., Durham, NC 27713",
+        "schedule": "d"
+    }, {
+        "id": "SGlsbHNpZGUgUGFyazEzMDEgUy4gUm94Ym9ybyBTdC4sIER1cmhhbSwgTkMgMjc3MDc=",
+        "name": "Hillside Park",
+        "address": "1301 S. Roxboro St., Durham, NC 27707",
+        "schedule": "d"
+    }, {
+        "id": "RWFzdCBEdXJoYW0gUmVjcmVhdGlvbiBDZW50ZXIyNjE1IEhhcnZhcmQgQXZlLiwgRHVyaGFtLCBOQyAyNzcwMw==",
+        "name": "East Durham Recreation Center",
+        "address": "2615 Harvard Ave., Durham, NC 27703",
+        "schedule": "d"
+    }, {
+        "id": "TWlzc2lvbiBUcmlhbmdsZSBQb2ludGUgQXBhcnRtZW50czYwMCBEaXNjb3ZlcnkgV2F5LCBEdXJoYW0sIE5DIDI3NzAz",
+        "name": "Mission Triangle Pointe Apartments",
+        "address": "600 Discovery Way, Durham, NC 27703",
+        "schedule": "e"
+    }, {
+        "id": "THlubiBIYXZlbiBBcGFydG1lbnRzOTE3IFdhZGVzYm9ybyBTdC4sIER1cmhhbSwgTkMgMjc3MDM=",
+        "name": "Lynn Haven Apartments",
+        "address": "917 Wadesboro St., Durham, NC 27703",
+        "schedule": "e"
+    }, {
+        "id": "TWVyaXdldGhlciBQbGFjZSBBcGFydG1lbnRzoDQwMDEgTWVyaXdldGhlciBEci4sIER1cmhhbSwgTkMgMjc3MDQ=",
+        "name": "Meriwether Place Apartments",
+        "address": " 4001 Meriwether Dr., Durham, NC 27704",
+        "schedule": "e"
+    }, {
+        "id": "R2VlciBTdC4vTWlkbGFuZCBUZXJyYWNlIFBhcmtpbmcgTG90oHwgQ29ybmVyIG9mIE1pZGxhbmQgJiBHZWVyLCBEdXJoYW0sIE5DIDI3NzA0",
+        "name": "Geer St./Midland Terrace Parking Lot",
+        "address": "Corner of Midland & Geer, Durham, NC 27704",
+        "schedule": "e"
+    }, {
+        "id": "REhBOiBDbHViIEJvdWxldmFyZKB8IDI0MTUgR2xlbmJyb29rIERyLiAoUmVjIENlbnRlciksIER1cmhhbSwgTkMgMjc3MDQ=",
+        "name": "DHA: Club Boulevard",
+        "address": "2415 Glenbrook Dr. (Rec Center), Durham, NC 27704",
+        "schedule": "e"
+    }, {
+        "id": "VGhlIE1ld3MgQXBhcnRtZW50c6B8IDE4MDEgV2lsbGlhbXNidXJnIFJkLiwgRHVyaGFtLCBOQyAyNzcwNw==",
+        "name": "The Mews Apartments",
+        "address": "1801 Williamsburg Rd., Durham, NC 27707",
+        "schedule": "e"
+    }, {
+        "id": "Q2FtYnJpZGdlIFZpbGxhZ2WgfCAxMzMyIEZpZGVsaXR5IERyLiwgRHVyaGFtLCBOQyAyNzcwMw==",
+        "name": "Cambridge Village",
+        "address": "1332 Fidelity Dr., Durham, NC 27703",
+        "schedule": "e"
+    }, {
+        "id": "V2hpc3BlcmluZyBQaW5lcyBNb2JpbGUgSG9tZXOgfCA2MTkgTHlubiBSZC4gRHVyaGFtLCBOQyAyNzcwMw==",
+        "name": "Whispering Pines Mobile Homes",
+        "address": "619 Lynn Rd. Durham, NC 27703",
+        "schedule": "e"
+    }, {
+        "id": "TW9ycmVlbmUgV2VzdCBBcGFydG1lbnRzoHwgNzAwIE1vcnJlZW5lIFJkLiwgRHVyaGFtLCBOQyAyNzcwNQ==",
+        "name": "Morreene West Apartments | 700 Morreene Rd., Durham, NC 27705",
+        "address": "Morreene West Apartments | 700 Morreene Rd., Durham, NC 27705",
+        "schedule": "e"
+    }, {
+        "id": "U3RyYXdiZXJyeSBIaWxscyBBcGFydG1lbnRzoHwgMTMyMSBOZXcgQ2FzdGxlIFJkLiwgRHVyaGFtLCBOQyAyNzcwNA==",
+        "name": "Strawberry Hills Apartments | 1321 New Castle Rd., Durham, NC 27704",
+        "address": "Strawberry Hills Apartments | 1321 New Castle Rd., Durham, NC 27704",
+        "schedule": "e"
+    }, {
+        "id": "REhBOiBNY0RvdWdhbGQgVGVycmFjZaB8IDExMDEgRS4gTGF3c29uIFN0LiwgRHVyaGFtLCBOQyAyNzcwMQ==",
+        "name": "DHA: McDougald Terrace | 1101 E. Lawson St., Durham, NC 27701",
+        "address": "DHA: McDougald Terrace | 1101 E. Lawson St., Durham, NC 27701",
+        "schedule": "e"
+    }, {
+        "id": "QmVudHdvb2QgQXBhcnRtZW50c6B8IDMyMiBKdW5jdGlvbiBSZC4sIER1cmhhbSwgTkMgMjc3MDM=",
+        "name": "Bentwood Apartments | 322 Junction Rd., Durham, NC 27703",
+        "address": "Bentwood Apartments | 322 Junction Rd., Durham, NC 27703",
+        "schedule": "e"
+    }, {
+        "id": "R3JlZW5zIG9mIFBpbmUgR2xlbm4gQXBhcnRtZW50c6B8IDYyMDEgUGluZSBHbGVubiBUcmFpbCwgRHVyaGFtLCBOQyAyNzcxMw==",
+        "name": "Greens of Pine Glenn Apartments | 6201 Pine Glenn Trail, Durham, NC 27713",
+        "address": "Greens of Pine Glenn Apartments | 6201 Pine Glenn Trail, Durham, NC 27713",
+        "schedule": "e"
+    }, {
+        "id": "TGFrZU1vb3IgQXBhcnRtZW50c6B8IDIwNSBLZW50IExha2UgRHIuLCBEdXJoYW0sIE5DIDI3NzEz",
+        "name": "LakeMoor Apartments | 205 Kent Lake Dr., Durham, NC 27713",
+        "address": "LakeMoor Apartments | 205 Kent Lake Dr., Durham, NC 27713",
+        "schedule": "e"
+    }, {
+        "id": "RWRnZW1vbnQgRWxtc6B8IDkxMiBBbmdpZXIgQXZlLiwgRHVyaGFtLCBOQyAyNzcwMQ==",
+        "name": "Edgemont Elms | 912 Angier Ave., Durham, NC 27701",
+        "address": "Edgemont Elms | 912 Angier Ave., Durham, NC 27701",
+        "schedule": "e"
+    }, {
+        "id": "SnVuaXBlciBTcXVhcmUgQXBhcnRtZW50c6B8IDEzMjUgSnVuaXBlciBTdC4sIER1cmhhbSwgTkMgMjc3MDE=",
+        "name": "Juniper Square Apartments | 1325 Juniper St., Durham, NC 27701",
+        "address": "Juniper Square Apartments | 1325 Juniper St., Durham, NC 27701",
+        "schedule": "e"
+    }, {
+        "id": "UGluZSBDcmVzdCBBcGFydG1lbnRzoHwgNjA0IE4uIEhhcmRlZSBTdC4sIER1cmhhbSwgTkMgMjc3MDOg",
+        "name": "Pine Crest Apartments | 604 N. Hardee St., Durham, NC 27703 ",
+        "address": "Pine Crest Apartments | 604 N. Hardee St., Durham, NC 27703 ",
+        "schedule": "e"
+    }]
+}

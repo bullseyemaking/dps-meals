@@ -41,8 +41,7 @@
         Object.keys(data).map(key => {
           data[key].map(item => {
             let li = document.createElement('LI');
-            let loc = data[key][item];
-            li.innerHTML = `${loc.name} - ${loc.address}`;
+            li.innerHTML = `${item.name} - ${item.address}`;
             document.querySelector('#results').appendChild(li);
           });
         });

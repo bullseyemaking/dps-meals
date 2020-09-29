@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DPS Meals</title>
+</head>
+<body>
+  <h1>DPS Meal Helper</h1>
+  <ul>
+    <li>Account</li>
+    <li>Locations</li>
+    <li>Schedules</li>
+    <li>Pickup</li>
+    <li>Request</li>
+    <li>Trade</li>
+  </ul>
+  <form>
+    <fieldset>
+      <legend>Filter Results</legend>
+      <label>Location Search <input onchange="MealApp.filter"></label>
+      <label>Day of Week Search <select onchange="MealApp.filter">
+          <option value="1">Monday</option>
+          <option value="">Tuesday</option>
+          <option value="">Wednesday</option>
+          <option value="">Thursday</option>
+          <option value="">Friday</option>
+        </select></label>
+  </form>
+  <ul id="results"></ul>
+  <script type="text/javascript">
+    var MealApp = {
+      filter: e => {
+        console.log(e);
+      },
+      data: {locations:{}, schedules:{}}
+    };
+    document.body.onload = function() {
+      fetch('locations.json').then(resp => resp.json()).then(data => {
+        Object.keys(data).map(key => {
+          data[key].map(item => {
+            let li = document.createElement('LI');
+            li.innerHTML = `${item.name} - ${item.address}`;
+            document.querySelector('#results').appendChild(li);
+          });
+        });
+      fetch('schedules.json').then(resp => resp.json()).then(data => {
+        Object.keys(data).map
+      })
+      });
+    }
+  </script>
+</body>
+</html>

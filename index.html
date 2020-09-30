@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DPS Meals</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <h1>DPS Meal Helper</h1>
@@ -28,6 +30,15 @@
         <li><label><input type="checkbox" value="5">Friday</label></li>
   </form>
   <ul id="results"></ul>
+  <div id='map' style='width: 400px; height: 300px;'></div>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYnVsbHNleWVtYWtpbmciLCJhIjoiY2tmb3NkbjFzMDM1cDJ4bzdkOXhueG5vbCJ9.dS9tq5qUPxyVxjzN5OqBIg';
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/bullseyemaking/ckfnx84ei3l3019musvc6ukk8'
+    });
+  </script>
+
   <script type="text/javascript">
     var MealApp = {
       filter: e => {

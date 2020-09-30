@@ -20,13 +20,12 @@
     <fieldset>
       <legend>Filter Results</legend>
       <label>Location Search <input onchange="MealApp.filter"></label>
-      <label>Day of Week Search <select onchange="MealApp.filter">
-          <option value="1">Monday</option>
-          <option value="">Tuesday</option>
-          <option value="">Wednesday</option>
-          <option value="">Thursday</option>
-          <option value="">Friday</option>
-        </select></label>
+      <ul>
+        <li><label><input type="checkbox" value="1">Monday</label></li>
+        <li><label><input type="checkbox" value="2">Tuesday</label></li>
+        <li><label><input type="checkbox" value="3">Wednesday</label></li>
+        <li><label><input type="checkbox" value="4">Thursday</label></li>
+        <li><label><input type="checkbox" value="5">Friday</label></li>
   </form>
   <ul id="results"></ul>
   <script type="text/javascript">
@@ -37,6 +36,7 @@
       data: {locations:{}, schedules:{}}
     };
     document.body.onload = function() {
+      document.body.addEventListener('change')
       fetch('locations.json').then(resp => resp.json()).then(data => {
         Object.keys(data).map(key => {
           data[key].map(item => {

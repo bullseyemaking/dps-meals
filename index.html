@@ -40,27 +40,27 @@
   </script>
 
   <script type="text/javascript">
-    var MealApp = {
-      filter: e => {
-        console.log(e);
-      },
-      data: {locations:{}, schedules:{}}
-    };
-    document.body.onload = function() {
-      document.body.addEventListener('change')
-      fetch('locations.json').then(resp => resp.json()).then(data => {
-        Object.keys(data).map(key => {
-          data[key].map(item => {
-            let li = document.createElement('LI');
-            li.innerHTML = `${item.name} - ${item.address}`;
-            document.querySelector('#results').appendChild(li);
-          });
-        });
-      fetch('schedules.json').then(resp => resp.json()).then(data => {
-        Object.keys(data).map
-      })
-      });
-    }
+    // var MealApp = {
+    //   filter: e => {
+    //     console.log(e);
+    //   },
+    //   data: {locations:{}, schedules:{}}
+    // };
+    // document.body.onload = function() {
+    //   document.body.addEventListener('change')
+    //   fetch('locations.json').then(resp => resp.json()).then(data => {
+    //     Object.keys(data).map(key => {
+    //       data[key].map(item => {
+    //         let li = document.createElement('LI');
+    //         li.innerHTML = `${item.name} - ${item.address}`;
+    //         document.querySelector('#results').appendChild(li);
+    //       });
+    //     });
+    //   fetch('schedules.json').then(resp => resp.json()).then(data => {
+    //     Object.keys(data).map
+    //   })
+    //   });
+    // }
   </script>
 </body>
 </html>

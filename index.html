@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DPS Meals</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
   <h1>DPS Meal Helper</h1>
@@ -20,36 +22,45 @@
     <fieldset>
       <legend>Filter Results</legend>
       <label>Location Search <input onchange="MealApp.filter"></label>
-      <label>Day of Week Search <select onchange="MealApp.filter">
-          <option value="1">Monday</option>
-          <option value="">Tuesday</option>
-          <option value="">Wednesday</option>
-          <option value="">Thursday</option>
-          <option value="">Friday</option>
-        </select></label>
+      <ul>
+        <li><label><input type="checkbox" value="1">Monday</label></li>
+        <li><label><input type="checkbox" value="2">Tuesday</label></li>
+        <li><label><input type="checkbox" value="3">Wednesday</label></li>
+        <li><label><input type="checkbox" value="4">Thursday</label></li>
+        <li><label><input type="checkbox" value="5">Friday</label></li>
   </form>
   <ul id="results"></ul>
+  <div id='map' style='width: 400px; height: 300px;'></div>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYnVsbHNleWVtYWtpbmciLCJhIjoiY2tmb3NkbjFzMDM1cDJ4bzdkOXhueG5vbCJ9.dS9tq5qUPxyVxjzN5OqBIg';
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/bullseyemaking/ckfnx84ei3l3019musvc6ukk8'
+    });
+  </script>
+
   <script type="text/javascript">
-    var MealApp = {
-      filter: e => {
-        console.log(e);
-      },
-      data: {locations:{}, schedules:{}}
-    };
-    document.body.onload = function() {
-      fetch('locations.json').then(resp => resp.json()).then(data => {
-        Object.keys(data).map(key => {
-          data[key].map(item => {
-            let li = document.createElement('LI');
-            li.innerHTML = `${item.name} - ${item.address}`;
-            document.querySelector('#results').appendChild(li);
-          });
-        });
-      fetch('schedules.json').then(resp => resp.json()).then(data => {
-        Object.keys(data).map
-      })
-      });
-    }
+    // var MealApp = {
+    //   filter: e => {
+    //     console.log(e);
+    //   },
+    //   data: {locations:{}, schedules:{}}
+    // };
+    // document.body.onload = function() {
+    //   document.body.addEventListener('change')
+    //   fetch('locations.json').then(resp => resp.json()).then(data => {
+    //     Object.keys(data).map(key => {
+    //       data[key].map(item => {
+    //         let li = document.createElement('LI');
+    //         li.innerHTML = `${item.name} - ${item.address}`;
+    //         document.querySelector('#results').appendChild(li);
+    //       });
+    //     });
+    //   fetch('schedules.json').then(resp => resp.json()).then(data => {
+    //     Object.keys(data).map
+    //   })
+    //   });
+    // }
   </script>
 </body>
 </html>

@@ -4,6 +4,9 @@ account_id = "2b683141b95aa57904fdc9c6fffcad78"
 workers_dev = true
 route = ""
 zone_id = "e2b45dfade2fd889f949e8821f047f4e"
+kv_namespaces = [ 
+    { binding = "AUTH_STORE", id = "e0ca2b34cd4a412eb8c4c5fecd832683" }
+]
 
 [site]
 bucket = "./public"

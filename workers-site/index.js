@@ -1,5 +1,6 @@
 import { getAssetFromKV, mapRequestToAsset } from '@cloudflare/kv-asset-handler'
-
+import { authorize, handleRedirect, logout } from './auth0'
+import { hydrateState } from './edge_state'
 /**
  * The DEBUG flag will do two things that help during development:
  * 1. we will skip caching on the edge, which makes it easier to
@@ -24,6 +25,14 @@ addEventListener('fetch', event => {
   }
 })
 
+const hydrateState = (state = {}) => ({
+  element: head => {
+    const jsonState = JSON.stringify(state)
+    const scriptTag = `<script id="edge_state" type="application/json">${jsonState}</script>`
+    head.append(scriptTag, { html: true })
+  },
+})
+
 async function handleEvent(event) {
   const url = new URL(event.request.url)
   let options = {}
@@ -35,13 +44,65 @@ async function handleEvent(event) {
   // options.mapRequestToAsset = handlePrefix(/^\/docs/)
 
   try {
+    // BEGINNING OF HANDLE AUTH REDIRECT CODE BLOCK
+    if (url.pathname === "/auth") {
+      const authorizedResponse = await handleRedirect(event)
+      if (!authorizedResponse) {
+        return new Response("Unauthorized", { status: 401 })
+      }
+      response = new Response(response.body, {
+        response,
+        ...authorizedResponse,
+      })
+      return response
+    }
+    // END OF HANDLE AUTH REDIRECT CODE BLOCK
+
+    // BEGINNING OF AUTHORIZATION CODE BLOCK
+    const [authorized, { authorization, redirectUrl }] = await authorize(event)
+    if (authorized && authorization.accessToken) {
+      request = new Request(request, {
+        headers: {
+          Authorization: `Bearer ${authorization.accessToken}`,
+        },
+      })
+    }
+    // END OF AUTHORIZATION CODE BLOCK
+    // BEGINNING OF REDIRECT CODE BLOCK
+    if (!authorized) {
+      return Response.redirect(redirectUrl)
+    }
+    // END OF REDIRECT CODE BLOCK
+
+    // BEGINNING OF WORKERS SITES
+    response = await getAssetFromKV(event)
     if (DEBUG) {
       // customize caching
       options.cacheControl = {
         bypassCache: true,
       }
     }
-    return await getAssetFromKV(event, options)
+    //return await getAssetFromKV(event, options)
+    // END OF WORKERS SITES
+
+    // BEGINNING OF LOGOUT CODE BLOCK
+    if (url.pathname === "/logout") {
+      const { headers } = logout(event)
+      return headers
+        ? new Response(response.body, {
+            ...response,
+            headers: Object.assign({}, response.headers, headers)
+          })
+        : Response.redirect(url.origin)
+    }
+    // END OF LOGOUT CODE BLOCK
+    
+    // BEGINNING OF STATE HYDRATION CODE BLOCK
+    return new HTMLRewriter()
+      .on("head", hydrateState(authorization.userInfo))
+      .transform(response)
+    // END OF STATE HYDRATION CODE BLOCK
+    
   } catch (e) {
     // if an error is thrown try to serve the asset at 404.html
     if (!DEBUG) {
